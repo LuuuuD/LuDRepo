@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    background-color: rgb(245, 247, 252);
+}
+
+main {
+    @media screen {
+        
+    }
+    display: flex;
+    padding: 32px;
+    gap: 32px;
+
+    max-width: 60%;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 32px;
+    box-shadow: 0 0 32px rgba(0, 0, 190, 0.178);
+}
+
+.Col1 {
+    width: 33%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.Details {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.shipping {
+    padding: 1% 2%;
+
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+
+    font-size: smaller;
+}
+
+h2 {
+    margin-top: 6px;
+}
+
+.Pricing p{
+    color: grey;
+    font-size: small;
+    font-weight: 5 00;
+}
+.Pricing .NewPrice{
+    font-size: xx-large;
+    font-weight: 700;
+    color: black;
+}
+
+.Stock{
+    display: flex;
+    gap: 6px;
+}
+.Circle{
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+
+    background-color: rgb(0, 177, 35);
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+    width: auto;
+    padding: 8px;
+    background-color: #9191ee;
+    border-top: 0; border-right: 0; border-bottom: 4px solid #0000be; border-left: 0;
+
+    color: white
+}
+
+.BotomButton button{  
+    width: 100%; 
+    background-color: white;
+    border: 2px solid #0000be;
+    border-radius: 8px;
+
+    color: #0000be;
+}
+.BotomButton{
+    display: flex;
+    gap: 8px;
+    
+}
